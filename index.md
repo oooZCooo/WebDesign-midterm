@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Homepage</title>
+<link rel="stylesheet" href="HomePageCSS.css" type="text/css">
+<link rel="stylesheet" href="Header.css" type="text/css">
+<link rel="stylesheet" href="FooterCss.css" type="text/css">
+</head>
 
-You can use the [editor on GitHub](https://github.com/oooZCooo/WebDesign-midterm/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oooZCooo/WebDesign-midterm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<body>
+	<div id="top">
+		<div id="topleft">
+			<a href="HomePage.html"><img src="homeimg.jpeg" height="30px"></a>
+			<a href="HomePage.html">Home</a>
+			<span class="separation">|</span>
+			<a href="CourseIntro.html">Course Introduction</a>
+			<span class="separation">|</span>
+			<a href="Project.html">Project</a>
+			<span class="separation">|</span>
+			<a href="Demo.html">Demonstration Video</a>
+		</div>
+		<div id="topright">
+			<form action="https://www.baidu.com/baidu">
+				<a href="Comment.html">Comment to teacher</a>
+				<input type="text" placeholder="Search anything">
+				<input type="submit" value="Search">
+			</form>
+		</div>
+	</div>
+	
+	<div id="main">
+		<p style="font-size: 160px;color: floralwhite;margin: 0px">Welcome to Programming with Electronic!</p>
+	</div>
+	
+	<div id="foot">
+		<footer style="color: black">
+		<hr>
+			Copyright &copy; Zhang Chen
+			<br>
+			<a href="http://www.vma.edu.cn/cn/index.html">http://www.vma.edu.cn/cn/index.html</a>
+			<br>
+			All right reserved
+		</footer>
+	</div>
+</body>
+</html>
