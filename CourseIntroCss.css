@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+#left{
+    background-color:rgba(91,90,96,1.00);
+    height:110%;
+    width:20%;
+    float:left;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 1px;
+	overflow: inherit;
+}
+#main{
+    float:right;
+    padding:10px;
+	width: 70%;
+	height: 100%;
+	overflow: inherit;
+	margin-right: 5%;
+	
+}
+.leftimg{
+	width: 100%;
+}
+
+

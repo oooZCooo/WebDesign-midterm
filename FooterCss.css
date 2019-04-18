@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+#foot {
+    background-color:rgba(232,231,227,1.00);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+	overflow: inherit;
+}
